@@ -1,4 +1,5 @@
-# Human Protein Atlas MCP Server
+![Logo](logo.png)
+# Unofficial Human Protein Atlas MCP Server
 
 A comprehensive Model Context Protocol (MCP) server for accessing Human Protein Atlas data, providing information about protein expression, subcellular localization, pathology, and more.
 
