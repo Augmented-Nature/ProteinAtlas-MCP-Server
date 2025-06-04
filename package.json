@@ -1,0 +1,55 @@
+{
+  "name": "proteinatlas-server",
+  "version": "1.0.0",
+  "description": "A comprehensive Model Context Protocol server for accessing Human Protein Atlas data including tissue expression, subcellular localization, pathology data, and protein annotations",
+  "main": "build/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc && node -e \"require('fs').chmodSync('build/index.js', '755')\"",
+    "start": "node build/index.js",
+    "dev": "tsc --watch"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "human-protein-atlas",
+    "hpa",
+    "protein",
+    "tissue-expression",
+    "subcellular-localization",
+    "pathology",
+    "cancer",
+    "immunohistochemistry",
+    "antibodies",
+    "proteomics",
+    "cell-atlas",
+    "tissue-atlas",
+    "brain-atlas",
+    "blood-atlas",
+    "metabolic-atlas",
+    "single-cell",
+    "gene-expression",
+    "protein-localization"
+  ],
+  "author": "MCP Development Team",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.5.0",
+    "axios": "^1.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  },
+  "bin": {
+    "proteinatlas-server": "./build/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mcp-servers/proteinatlas-mcp-server"
+  },
+  "homepage": "https://github.com/mcp-servers/proteinatlas-mcp-server#readme",
+  "bugs": {
+    "url": "https://github.com/mcp-servers/proteinatlas-mcp-server/issues"
+  }
+}
