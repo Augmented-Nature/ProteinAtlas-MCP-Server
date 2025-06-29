@@ -408,3 +408,14 @@ For issues and questions:
 ---
 
 _This server provides programmatic access to Human Protein Atlas data for research and educational purposes. Please cite appropriate sources when using this data in publications._
+
+
+## Citation
+If you use this project in your research or publications, please cite it as follows:
+
+```bibtex @misc{proteinatlasmcp2025, 
+author = {Moudather Chelbi},
+title = {Human Protein Atlas MCP Server},
+year = {2025},
+howpublished = {https://github.com/Augmented-Nature/ProteinAtlas-MCP-Server/},
+note = {Accessed: 2025-06-29}
